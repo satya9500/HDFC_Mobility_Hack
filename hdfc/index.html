@@ -1,0 +1,2627 @@
+<html>
+
+<head>
+
+
+
+
+<script src="jquery.min.js"> </script>
+
+<link  rel="stylesheet" href="mate_icon.css" >
+
+<script type="text/javascript"  src="materialize.js"> </script>
+
+<script type="text/javascript"  src="materialize.min.js"> </script>
+
+<script src="highcharts.js"> </script>
+
+<link rel="stylesheet" href="materialize.css">
+
+<link rel="stylesheet" href="materialize.min.css">
+
+<script src="main.js"> </script>
+
+<script src="openfb.js"> </script>
+
+<link rel="stylesheet" href="animate.css">
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body onload="show_hdfc_starting_screen()">
+
+
+<!--  menu open code
+ -->
+
+
+
+
+<ul id="slide-out" class="side-nav">
+
+   
+		   <ul class="collapsible" data-collapsible="accordion">
+		      <li>
+
+			    <div class="userView">
+			      <div class="background">
+			        <img src="side_menu1.jpg">
+			      </div>
+			      <a href="#!user"><img class="circle right" src="person2.jpg" id="facebook_pic"></a>
+			      <a href="#!name"><span class="white-text name" id="facebook_name">Jhon Doe</span></a>
+			      <a href="#!email"><span class="white-text email" id="facebook_email" >jhonedoe@gmail.com</span></a>
+ 				  <a href="#!name"><i class="material-icons left" style="color:white">perm_data_setting</i><span class="white-text name">Settings</span></a>
+			      <a href="#!name"><i class="material-icons left" style="color:white">lock_open</i><span class="white-text name" id="facebook_name">Log Out</span></a>
+			      <br>
+			    </div>
+
+    		</li>
+
+		   	    <li>
+			      <div class="collapsible-header">
+			      	<i class="material-icons icon_menu_color">home</i>Home</div>
+			    </li>
+
+			    <li class="divider"></li>
+
+
+			    <li>
+			      <div class="collapsible-header">
+			      	<i class="material-icons icon_menu_color">shopping_cart</i>Buy A Policy <i class="material-icons right icon_menu_color ">keyboard_arrow_down </i></div>
+			       
+			      <div class="collapsible-body">
+
+						      		
+						      		<ul class="collapsible" data-collapsible="accordion">
+									    <li>
+									      <div class="collapsible-header"><i class="material-icons icon_menu_color">format_list_bulleted</i>HDFC Life Easy Health Plan</div>
+									     
+
+									    </li>
+									    <li>
+									      <div class="collapsible-header"><i class="material-icons icon_menu_color">format_list_bulleted</i>HDFC Click2Retire Plan</div>
+									     
+
+									    </li>
+									    <li>
+									      <div class="collapsible-header"><i class="material-icons icon_menu_color">format_list_bulleted</i>HDFC Life Cancer Care Plan</div>							
+									    </li>
+
+									    <li>
+									      <div class="collapsible-header"><i class="material-icons icon_menu_color">format_list_bulleted</i>HDFC Life Click2Invest-ULIP</div>							
+									    </li>
+
+									    <li>
+									      <div class="collapsible-header"><i class="material-icons icon_menu_color">format_list_bulleted</i>HDFC Life Click2Protect +</div>							
+									    </li>
+
+									
+								  </ul>
+
+			      </div>
+
+			    </li>
+
+			    <li class="divider"></li>
+
+			     <li>
+
+						      <div class="collapsible-header">
+						      	<i class="material-icons icon_menu_color">assignment_ind</i>Policy Holders <i class="material-icons right icon_menu_color ">keyboard_arrow_down </i>
+						      </div>
+						       
+						      <div class="collapsible-body">
+
+
+									      		
+									      		<ul class="collapsible" data-collapsible="accordion" >
+												    <li>
+												      <div class="collapsible-header"><i class="material-icons icon_menu_color">format_list_bulleted</i>Pay Premium</div>
+												     
+
+												    </li>
+												    <li>
+												      <div class="collapsible-header"><i class="material-icons icon_menu_color">format_list_bulleted</i>
+												      Claims and Servicing</div>
+												     
+
+												    </li>
+
+												    <li>
+												      <div class="collapsible-header"><i class="material-icons icon_menu_color">format_list_bulleted</i>Claims&Service</div>							
+												    </li>
+												
+											  </ul>
+
+						     
+						      </div>
+			    </li>
+
+			    <li class="divider"></li>
+
+			     	<li>
+							<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">translate</i> Get Dictionary</div>
+
+			      	 </li>
+
+			    <li class="divider"></li>
+
+			     
+			     	  <li>
+							<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">autorenew</i>Quick Policy Renewal</div>
+
+			      	  </li>
+
+			     <li class="divider"></li>
+			    	
+			     	  
+			      	    <li>
+							<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">trending_up</i>Fund Performane</div>
+			      	    </li>
+
+			     <li class="divider"></li>
+
+			      	     <li>
+							<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">pan_tool</i>Tools & Calculator</div>
+			      	    </li>
+
+			     <li class="divider"></li>
+
+			      	    <li>
+			      	    	<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">language</i>Change Language</div>			      	    	
+			      	    </li>
+
+			     <li class="divider"></li>
+
+			      		<li>
+			      	    	<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">question_answer</i>FAQ's</div>
+
+			      	    </li>
+
+			    <li class="divider"></li>
+
+			      	    <li>
+			      	    	<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">theaters</i>App Tour</div>
+
+			      	    </li>
+
+			     <li class="divider"></li>
+
+			      	     <li>
+			      	    	<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">movie</i>Memoriess For Life</div>
+			      	    </li>
+
+			     <li class="divider"></li>
+
+			      	    <li>
+			      	    	<div class="collapsible-header">
+					      	<i class="material-icons icon_menu_color">help</i>Help</div>			      	    	
+			      	    </li>
+			     <li class="divider"></li>
+			       
+		 </ul>    
+   
+</ul>
+
+
+<!--  <ul id="slide-out1" class="side-nav">
+
+    <li>
+
+    <div class="userView">
+      <div class="background">
+        <img src="side_menu1.jpg">
+      </div>
+      <a href="#!user"><img class="circle right" src="person2.jpg"></a>
+      <a href="#!name"><span class="white-text name">Jhon Doe</span></a>
+      <a href="#!email"><span class="white-text email">jhonedoe@gmail.com</span></a>
+      <br>
+    </div>
+
+    </li>
+
+    <li><a class="waves-effect" href="#!"><i class="material-icons">local_movies</i>App Tour</a></li>
+     <li><div class="divider"></div></li>
+
+ 
+    <li><a class="waves-effect"  href="#!"><i class="material-icons">security</i>Security Settings</a></li>
+    <li><div class="divider"></div></li>      
+
+    <li><a class="waves-effect"  href="#!"><i class="material-icons">help</i>Help</a></li>
+    <li><div class="divider"></div></li>
+
+    <li><a class="waves-effect"  href="#!"><i class="material-icons">error</i>About Us</a></li>
+    <li><div class="divider"></div></li>  
+
+    <li><a class="waves-effect"  href="#!"><i class="material-icons">lock_open</i>Log Out</a></li>
+    <li><div class="divider"></div></li>    
+   
+
+  </ul>
+
+ -->
+
+		<div id="main_frame" >
+
+
+<!-- // first screen -->
+
+			<div id="starting_screen_home_page">
+
+				<div id="background_image_photo" >
+				<img src = "screen1.jpg"  id="main_screen_photo" >
+				</div>
+
+				<div id="part1" class="animated slideInUp">
+					<img src="heart.png" height="auto" width="100%" id="image1" >
+				</div>
+
+				<div id="part2" class="animated slideInUp">
+					<img src="insurance.png" height="auto" width="100%" id="image2">
+				</div>
+
+				<div id="part3" class="animated slideInUp">
+					<img src="sick.png" height="auto" width="100%" id="image3">
+				</div>
+
+			</div>
+
+			
+<!-- // login screen -->
+
+			<div id="login_slides">
+
+				<div id="top_image_bar">
+					<img id="logo" src="hdfc_logo.png">
+					<img id="imagei" src="plain1.png">
+				</div>
+
+				<div id="in_up">
+
+				<div class="row">
+
+					<div class="col s12 center regular_roboto" style="" >
+						<br>
+						Login with  <br> <br> 
+					</div>
+
+					<div class="col s6">
+						<a class="waves-effect waves-light btn right" style="background-color:#39559F;" onclick="login()">FaceBook</a>
+					</div>
+
+					<div class="col s6 ">						
+						<a class="waves-effect waves-light btn" style="background-color:#DD4C39;"><i class="material-icons left"></i>Google</a>
+					 </div>
+
+					 <div class="col s12 center"> <br>
+					 	Or <br> <br>
+					 </div>
+
+				        <div class="input-field col s12">				        	
+				          <i class="material-icons prefix" style="color:#2980b9">email</i>
+				          <input id="icon_prefix" type="email" class="validate">
+				          <label for="icon_prefix">
+				          	Email</label>
+				        </div>
+
+				        <div class="input-field col s5">
+				          <i class="material-icons prefix"style="color:#2980b9" >vpn_keys</i>
+				          <input id="icon_telephone" type="password" class="validate">
+				          <label for="icon_telephone">Password</label>
+				        </div>
+
+				        <div class="input-field col s1">
+				        	 <label for="icon_telephone">Or</label>
+				        </div>
+						
+						<div class="input-field col s6">
+				          <i class="material-icons prefix"style="color:#2980b9" >fingerprint</i>
+				          <label for="icon_telephone">Tap Finger Scanner</label>
+				        </div> 
+
+				         <div class="col s9 center"> <br>
+						  <a class="waves-effect waves-light btn" style="background-color:#2980b9;" onclick="after_login()"><i class="material-icons left"></i>Login</a>
+						 </div>
+
+						 <div class="col s3 right"> <br>
+						 	  <a class="waves-effect waves-light btn" style="background-color:white;color:#2980b9" onclick="after_login()"><i class="material-icons left"></i>Skip</a>
+						 	
+						 </div>
+				   
+				
+
+				<!--   <a class="waves-effect waves-light btn" id="login_button" style="background-color:
+				#14405c"><i class="material-icons right">trending_flat</i>Login</a> -->
+
+				<!-- <label id="sign_up"> <u>SignUp </u> </label> -->
+
+			  </div>
+
+			</div>
+				
+			</div>
+
+<!-- // selection screen -->
+
+			<div id="main_screen_2" class="animated sideInRight">
+
+				  <nav class="nav-extended top_bar_screen_2">
+				    <div class="nav-wrapper">
+
+				      <a  href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+				      <a href="#" class="brand-logo center" style="color:#d4e5f1">HDFC Life</a>
+
+
+				      <ul id="nav-mobile" class="right">
+				      
+
+				        <li><a  class="waves-effect waves-light"><i class="material-icons">notifications</i></a></li>
+				      
+				        <li><a  href="#" style="font-size:3vw" ><i class="material-icons">supervisor_account</i></a></li>
+				      
+
+				      </ul>
+
+				      <ul class="tabs tabs-transparent">
+				        <li class="tab center-text"><a class="active waves-effect waves-yellow" href="#test1" onclick="show_policy()" style="font-size:3vw"> Buy Policy 
+				        	
+				        	</a></li>
+				        <li class="tab"><a class="waves-effect waves-yellow" href="#test2" style="font-size:3vw">
+				        	Policy Holders
+				       
+				        <li class="tab"><a class="waves-effect waves-yellow marji" href="#test3" style="font-size:3vw">Utilities</a></li>
+				      </ul>
+				    </div>
+				  </nav>
+
+				
+          <div id="test1" class="col s12 majorColor">
+
+          	<br>
+
+ 			<ul class="collapsible popout " data-collapsible="accordion">
+
+            <li class="animated slideInUp ">
+            <div class="collapsible-header ">
+
+        <!--      <img src="easy2.png" alt="" class="circle" style="">
+             HDFC Life Easy Health Plan
+ -->
+
+               <div class="row">
+                <div class="col s12 m6">
+                  <div class="main_color">
+                  
+                        <ul class="collection " style="margin-top: 0px;margin-bottom: 0px;">
+
+                              <li class="collection-item avatar" style="color:#14405c">
+                            
+                                 <img src="easy2.png" alt="" class="circle">
+
+                                  <span class="title" style="font-size:4vw">HDFCLife <br> EasyHealthPlan</span>             
+                                 <a href="#!" class="secondary-content"><i class="material-icons" style="color:black">keyboard_arrow_down</i></a> 
+                             </li>
+
+                      </ul>
+
+                   
+
+                  </div>
+                </div>
+              </div>
+ 
+             </div>
+
+             <div class="collapsible-body">
+              <div class="row">
+                <div class="col s12 center" id="slider_hdfc_life_easy_plan center" style="font-size:3vw"> <br>
+                	Get financial help when you are not well
+                </div>
+                <div class="col s12 center" id="button_buy_now">
+                
+                	<br>
+                  <a class="waves-effect waves-light btn pink lighten-1" onclick="get_policy_life_easy()" style="font-size:3vw" ><i class="material-icons left">shopping_basket</i>Buy Now</a> 
+                </div>
+
+              </div>
+
+             </div>
+
+            
+            </li>
+
+              <li class="animated slideInUp" style="animation-delay: 0.3s;">
+             
+             <div class="collapsible-header">
+
+               <div class="row">
+                <div class="col s12 m6">
+               
+                        <ul class="collection " style="margin-top: 0px;margin-bottom: 0px;">
+
+                              <li class="collection-item avatar" style="color:#14405c">
+                            
+                               <img src="prot.png" alt="" class="circle">
+
+                                <span class="title" style="font-size:4vw">HDFC Life<br>Click2Protect + </span>
+                           
+<a href="#!" class="secondary-content"><i class="material-icons" style="color:black">keyboard_arrow_down</i></a> 
+                              </li>
+
+                      </ul>
+
+                   
+
+                </div>
+              </div>
+
+             </div>
+
+             <div class="collapsible-body">
+              <div class="row">
+                <div class="col s12 center" id="slider_hdfc_life_easy_plan center" style="font-size:3vw"> <br>
+                	Comprehensive plan to safeguard the future of your loved once
+                </div> 
+                <div class="col s12 center" id="button_buy_now">
+                	<br>
+                     <a class="waves-effect waves-light btn pink lighten-1" onclick="get_policy_life_easy()" style="font-size:3vw" ><i class="material-icons left">shopping_basket</i>Buy Now</a> 
+                </div>
+
+              </div>
+
+             </div>
+
+            
+            </li>
+
+           <li class="animated slideInUp" style="animation-delay: 0.5s;">
+             
+             <div class="collapsible-header">
+
+               <div class="row">
+                <div class="col s12 m6">
+               
+                        <ul class="collection " style="margin-top: 0px;margin-bottom: 0px;">
+
+                              <li class="collection-item avatar" style="color:#14405c">
+                            
+                           
+                                <img src="retiri1.png" alt="" class="circle">
+
+                                <span class="title" style="font-size:4vw" >HDFCLife <br>Click2Retire</span>
+<a href="#!" class="secondary-content"><i class="material-icons" style="color:black">keyboard_arrow_down</i></a> 
+                              </li>
+
+                      </ul>
+
+                   
+
+                </div>
+              </div>
+
+             </div>
+
+             <div class="collapsible-body">
+              <div class="row">
+                <div class="col s12 center " id="slider_hdfc_life_easy_plan center" style="font-size:3vw"> <br>
+                	Plan for an early retirement with this online ULIP
+                </div> 
+                <div class="col s12 center" id="button_buy_now">
+                	<br>
+                        <a class="waves-effect waves-light btn pink lighten-1" onclick="get_policy_life_easy()" style="font-size:3vw" ><i class="material-icons left">shopping_basket</i>Buy Now</a> 
+                </div>
+
+              </div>
+
+             </div>
+
+            
+            </li>
+
+              <li class="animated slideInUp" style="animation-delay: 0.7s;">
+             
+             <div class="collapsible-header">
+
+               <div class="row">
+                <div class="col s12 m6">
+               
+                        <ul class="collection " style="margin-top: 0px;margin-bottom: 0px;">
+
+                              <li class="collection-item avatar" style="color:#14405c">
+                            
+                   
+                                  <img src="care.png" alt="" class="circle">
+
+                                  <span class="title" style="font-size:4vw" >HDFCLife <br> CancerCarePlan</span>
+                                  <a href="#!" class="secondary-content"><i class="material-icons" style="color:black">keyboard_arrow_down</i></a>                
+                              </li>
+
+                      </ul>
+
+                   
+
+                </div>
+              </div>
+
+             </div>
+
+             <div class="collapsible-body">
+              <div class="row">
+                <div class="col s12 center" id="slider_hdfc_life_easy_plan center" style="font-size:3vw"> <br>
+                	Get complete financial protection against Cancer
+                </div> <br>
+                <div class="col s12 center" id="button_buy_now"><br>
+              <a class="waves-effect waves-light btn pink lighten-1" onclick="get_policy_life_easy()" style="font-size:3vw" ><i class="material-icons left">shopping_basket</i>Buy Now</a> 
+                </div>
+
+              </div>
+
+             </div>
+
+            
+            </li>
+
+          
+
+            <li class="animated slideInUp" style="animation-delay: 0.9s;">
+             
+             <div class="collapsible-header">
+
+               <div class="row">
+                <div class="col s12 m6">
+               
+                        <ul class="collection " style="margin-top: 0px;margin-bottom: 0px;">
+
+                              <li class="collection-item avatar" style="color:#14405c">
+                            
+                       
+                                    <img src="invest1.png" alt="" class="circle">
+
+                                    <span class="title" style="font-size:4vw" >HDFCLife <br> Click2Invest</span>
+                                   <a href="#!" class="secondary-content"><i class="material-icons" style="color:black">keyboard_arrow_down</i></a>    
+
+                              </li>
+
+                      </ul>
+
+                   
+
+                </div>
+              </div>
+
+             </div>
+
+             <div class="collapsible-body">
+              <div class="row">
+                <div class="col s12 center" id="slider_hdfc_life_easy_plan center" style="font-size:3vw"> <br>
+
+                	Flexible ULIP to maximise returns
+
+                </div> <br>
+                <div class="col s12 center" id="button_buy_now"><br>
+                       <a class="waves-effect waves-light btn pink lighten-1" onclick="get_policy_life_easy()" style="font-size:3vw" ><i class="material-icons left">shopping_basket</i>Buy Now</a> 
+                </div>
+
+              </div>
+
+             </div>
+
+            
+            </li>
+
+   
+      </ul>
+
+ </div>
+
+				  <div id="test2" class="col s12">
+
+				  	<br> <br>
+
+				  			  	<div class="row">
+
+							  		<ul class="collapsible popout" data-collapsible="accordion">
+
+									   
+
+									    <li>
+									    	<div class="collapsible-header active" ><i class="material-icons icon_menu_color">payment</i>Pay Premium</div>
+
+									    	   <div class="collapsible-body">
+									    	   
+									    	  	<div class="row"> <br>
+												    
+												        <div class="input-field col s12">
+												          <i class="material-icons prefix icon_menu_color">account_circle</i>
+												          <input id="icon_prefix" type="text" class="validate">
+												          <label for="icon_prefix">Policy Number</label>
+												        </div>
+
+												        <div class="input-field col s12 icon_menu_color">
+												          <i class="material-icons prefix  icon_menu_color">perm_contact_calendar</i>
+  														  <input type="date" class="datepicker">		
+												        </div>
+
+												        <div class="col s12 center">
+												        		<a class="waves-effect waves-light btn">
+												        		Fetch Policy</a>
+												        </div>
+
+
+												  </div>
+
+											   </div>
+
+									   </li> <br>
+
+									    <li>
+
+									      <div class="collapsible-header"><i class="material-icons icon_menu_color">publish</i>Claims & Service</div>
+
+									      <div class="collapsible-body">
+
+									      		<div class="row"> <br>
+												    
+												        <div class="input-field col s12">
+												          <i class="material-icons prefix icon_menu_color">account_circle</i>
+												          <input id="icon_prefix" type="text" class="validate">
+												          <label for="icon_prefix">Policy Number</label>
+												        </div>
+
+												        <div class="input-field col s12">
+												          <i class="material-icons prefix icon_menu_color ">perm_contact_calendar</i>
+  														  <input type="date" class="datepicker">		
+												        </div>
+
+												        <div class="col s12 center">
+												        		<a class="waves-effect waves-light btn">
+												        		Claim Policy</a>
+												        </div>
+
+
+												  </div>
+
+
+									      </div>
+
+									    </li>
+
+									    	
+
+
+									        <br>
+
+											    <li>
+											     <div class="collapsible-header"><i class="material-icons icon_menu_color">equalizer</i>My Funds</div>
+											      <div class="collapsible-body">
+											      	<ul class="collapsible popout" data-collapsible="accordion">
+											      		<br>
+													    <li>
+													      <div class="collapsible-header"><i class="material-icons icon_menu_color">swap_vert</i>Fund Switch</div>
+													     <!--  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div> -->
+													    </li> <br>
+													    <li>
+													      <div class="collapsible-header"><i class="material-icons icon_menu_color">open_with</i>Premium Redirection</div>
+													     <!--  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div> -->
+													    </li>
+												   </ul>
+
+
+											      </div>
+											    </li> <br>
+									  
+									         </ul>
+
+									    </div>
+
+								 </div> 					     
+
+					    
+
+				  
+				  <div id="test3" class="col s12">
+
+
+				  	<ul class="collapsible popout" data-collapsible="accordion">
+
+				  		<br> <br>
+
+					    <li>
+						    <div class="collapsible-header active"><i class="material-icons icon_menu_color">room</i>Branch Locator</div>
+						    <div class="collapsible-body">
+
+						    	<div class="row">
+
+						    		<div class="col s12 m6">
+							          <div class="card blue-grey darken-1" id="map" style="top:0%;left:0%;height:40%;width:100%;">
+							            
+							          </div>
+							        </div>
+
+						    		<div class="col s12 center">
+						    			<br>
+
+						    			Find  us Across India
+
+						    			<br> <br>
+
+						    		</div>
+
+						    		<div class="input-field col s12">
+
+						    			<select>
+
+									      <option value="" disabled selected>Enter your State</option>
+									      <option value="1">Maharastra</option>
+									      <option value="2">Gujrat</option>
+									      <option value="3">Goa</option>
+									      <option value="2">Haryana</option>
+									      <option value="3">Himachal Pradesh</option>
+
+									    </select>
+
+									    <select>
+
+									      <option value="" disabled selected>Enter your City</option>
+									      <option value="1">Mumbai</option>
+									      <option value="2">Amravati</option>
+									      <option value="3">Aurangabad</option>
+									      <option value="2">Gondia</option>
+									      <option value="3">Nashik</option>
+
+									    </select>
+    									
+
+						    		</div>
+
+						    		<div class="col s12 center">
+						    				<a class="waves-effect waves-light btn"><i class="material-icons left">room</i>Locate us </a>
+						    		</div>
+
+						    	</div>
+
+
+
+						    </div>
+					    </li> <br>
+
+					     <li>
+					    <div class="collapsible-header"><i class="material-icons icon_menu_color">trending_up</i>Fund Performance</div>
+					    <div class="collapsible-body">
+
+
+					    	  <ul class="collapsible popout" data-collapsible="accordion">
+					    	  	<br>
+							    <li>
+							      <div class="collapsible-header">HDFC SL YoungStarSuper II </div>
+							      <div class="collapsible-body">
+
+										<div class="row">
+
+								    		<div class="col s12">
+
+												  <div  id="container">
+
+												  </div>				    		
+
+
+								    	     </div>
+
+								         </div>
+
+							      </div>
+							    </li>
+
+							    <br>
+
+							    <li>
+							      <div class="collapsible-header">HDFC Simple Life</div>
+							      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+							    </li>
+							    <li> <br>
+							      <div class="collapsible-header">HDFC Endowment Super Suvida</div>
+							      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+							    </li>
+							  </ul>
+
+
+
+					    	
+
+<!-- 					    	<div class="row">
+
+					    		<div class="col s12">
+
+									  <div  id="container">
+
+									  </div>				    		
+
+
+					    	     </div>
+
+					         </div>
+ -->
+					     </div>
+					   
+					    </li> <br>
+
+					    <li>
+					    <div class="collapsible-header"><i class="material-icons icon_menu_color">loyalty</i>Memories for Life</div>
+					     <div class="collapsible-body"></div>
+					    </li>
+
+					     <br>
+					    <li>
+					    <div class="collapsible-header"><i class="material-icons icon_menu_color">call_merge</i>Client Merger</div>
+					    <div class="collapsible-body"></div>
+					    </li>
+
+					</ul>
+
+				 </div>				
+
+	<div class="fixed-action-btn toolbar">
+	    <a class="btn-floating btn-large pink lighten-1">
+	      <i class="large material-icons">mode_edit</i>
+	    </a>
+	    <ul>
+	      <li class="waves-effect waves-light"><a href="tel:+9118602679999"><i class="material-icons">call</i></a></li>
+	      <li class="waves-effect waves-light"><a href="mailto:help@hdfclife.in?Subject=Hello%20User"><i class="material-icons">email</i></a></li>
+	      <li class="waves-effect waves-light"><a onclick="get_faq_bar()" href="#!"><i class="material-icons">youtube_searched_for</i></a>
+	      </li>
+
+	      <li class="waves-effect waves-light"><a onclick="get_dictionary()"><i class="material-icons">question_answer</i></a></li>
+	    </ul>
+   </div>
+        			
+</div>
+
+<!-- // profile photo
+ -->
+		<div id="main_screen_3">
+
+			<div id="profile_div">
+
+			</div>
+
+			<div id="data_div">
+
+		 	 <nav class="nav-extended">
+				     <div class="nav-wrapper">
+				        <ul class="tabs tabs-transparent">
+
+				        <li class="tab s4"><a href="#test1new">General</a></li>
+				        <li class="tab s4"><a class="active" href="#test2new">Contacts</a></li>
+				        <li class="tab s4"><a href="#test3new">Change Password</a></li>
+				      
+				      </ul>
+				    </div>
+		  		</nav>
+		  		
+		  <div id="test1new" class="col s12">
+
+		<div class="row">
+
+       <div class="col s12">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+
+            	 <div class="row">
+				    <form class="col s12">
+				      <div class="row">
+
+				        <div class="input-field col s6">
+				          <i class="material-icons prefix">account_circle</i>
+				          <input id="icon_prefix" type="text" class="validate" value="Jhon">
+				          <label for="icon_first_name">First Name</label>
+				        </div>
+
+				        <div class="input-field col s6">
+				            <input id="icon_telephone" type="tel" class="validate" value="Doe">
+				          <label for="icon_last_name">Last Name</label>
+				        </div>
+
+				        <div class="input-field col s12">
+				        	<i class="material-icons prefix">email</i>
+				            <input id="icon_telephone" type="tel" class="validate" value="jhondoe@gmail.com">
+				          <label for="icon_email">Email</label>
+				        </div>
+  						
+   						<div class="input-field col s12">
+				        	<i class="material-icons prefix">perm_contact_calendar</i>
+  							<input type="date" class="datepicker">				         
+				        </div>
+				        
+				        
+
+				      </div>
+				    </form>
+				  </div>
+
+            </div>
+          
+
+          </div>
+        </div>
+
+
+      </div>
+            
+
+		  </div>
+
+		  <div id="test2new" class="col s12">
+
+ 			<div class="row">
+		        <div class="col s12">
+		          <div class="card blue-grey darken-1">
+		            <div class="card-content white-text">
+		            
+		            <div class="row">
+				    <form class="col s12">
+				      <div class="row">
+
+						        <div class="input-field col s12">
+						          <i class="material-icons prefix">contact_phone</i>
+						          <input id="icon_prefix" type="text" class="validate" value="9897507488">
+						          <label for="icon_first_name">Mobile Number</label>
+						        </div>
+
+						   
+
+						        <div class="input-field col s12">
+						        	<i class="material-icons prefix">phone</i>
+						            <input id="icon_telephone" type="tel" class="validate" value="0135-2456165">
+						          <label for="icon_email">Telephone Number</label>
+						        </div>
+
+						             <div class="input-field col s12">
+						        	<i class="material-icons prefix">email</i>
+						            <input id="icon_telephone" type="tel" class="validate" value="jhondoe@gmail.com">
+						          <label for="icon_email">Email</label>
+						        </div>
+
+						        	     <div class="input-field col s12">
+						        	<i class="material-icons prefix">home</i>
+						            <input id="icon_telephone" type="tel" class="validate" value="Tieto,Pune,Maharastra">
+						          <label for="icon_email">Address</label>
+						        </div>
+		  						
+		   		      </div>
+				    </form>
+				  </div>
+		           
+		            
+		            </div>
+		          
+
+		          </div>
+		        </div>
+            </div>
+
+		  </div>
+
+		  <div id="test3new" class="col s12">
+
+		  		<div class="row">
+		        <div class="col s12">
+		          <div class="card blue-grey darken-1">
+		            <div class="card-content white-text">
+		            
+		            <div class="row">
+
+				    <form class="col s12">
+				      <div class="row">
+
+				        <div class="input-field col s12">
+				          <i class="material-icons prefix">phone</i>
+				          <input id="icon_prefix" type="password" class="validate" value="9897507488">
+				          <label for="icon_first_name">Current Password</label>
+				        </div>
+
+				   
+
+				        <div class="input-field col s12">
+				        	<i class="material-icons prefix">phone</i>
+				            <input id="icon_telephone" type="password" class="validate" >
+				          <label for="icon_email">New Password</label>
+				        </div>
+
+				             <div class="input-field col s12">
+				        	<i class="material-icons prefix">email</i>
+				            <input id="icon_telephone" type="password" class="validate">
+				          <label for="icon_email">Confirm Password</label>
+				        	</div>
+   						
+				         <div class="input-field col s12">
+				        	<i class="material-icons prefix">fingerprint</i>
+				         <label for="icon_email">Add Finger Print</label>
+				        	</div>
+				        
+
+				      </div>
+				    </form>
+				  </div>
+		           
+		            
+		            </div>
+		          
+
+		          </div>
+		        </div>
+            </div>
+
+
+		  </div>
+		
+		</div>
+
+	</div>
+
+
+
+
+	<div id="screen_medical_details">
+
+		<div id="topii">
+			<div class="row">
+					<div class="col s12">
+						<a class="waves-effect waves-light"><i class="material-icons">arrow_back</i></a>		
+						
+					</div>
+					
+					<div class="col s12 center">
+						 <img src="report.png" alt="" class="circle">
+					</div>
+
+					<div class="col s4 center">
+						<img src="facebook1.png" alt="" class="circle">
+					</div>
+					
+
+					<div class="col s4 center">
+						<img src="goo.png" alt="" class="circle">
+					</div>
+					
+
+					<div class="col s4 center">
+						<img src="twitter1.png" alt="" class="circle">
+					</div>
+
+
+			</div>
+
+
+		</div>
+
+
+
+
+		<div id="medical_reports">
+			<div class="row">
+			 
+				 		<div class="col s12">
+
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content black-text">
+
+					            <ul class="collection">
+
+							    <li class="collection-item avatar">
+							      <img src="report.png" alt="" class="circle">
+							       
+							      <p style="font-size:4.4vw;font-weight:bold;font-family:regular"> Life  Assured Medical Details </p> <br>
+
+							      <p id="incremetnt" class="font_regular ">Step 1/9 </p>
+
+							     
+							    </li>
+								</ul>
+
+					               </div>
+					          </div>
+					    </div>
+					     
+		            
+
+					        <div class="col s12 m6">
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content white-text content_details">
+					             
+					                <p>Are you currently going through any : <br>
+
+					              	 1. Symptoms <br>
+					              	 2. Medical Conditions <br>
+					              	 3. Disability or Hospitailised <br>
+
+					                 </p>
+					            
+					            </div>
+
+					            <div class="card-action center">
+
+						            <div class="row">
+								            <div class="col s6">
+								            	<a class="waves-effect waves-light btn rajoo" onclick="abc()">Yes</a>
+								            </div>
+
+								            <div class="col s6">
+								            <a class="waves-effect waves-light btn rajoo" onclick="abc()">No</a>
+								            </div>
+						            
+						            </div>
+					             
+					            </div>
+					          </div>
+					        </div>
+
+					          <div class="col s12 m6 animated slideInLeft" style="display:none">
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content white-text content_details">
+					             
+					                <p>Have you received Medical Treatment for continous period 					                   of 6 days in last 2 days ?  	
+					                 </p>
+					            
+					            </div>
+
+					            <div class="card-action center">
+
+					            <div class="row">
+
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">Yes</a>
+							            </div>
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">No</a>
+							            </div>
+					            
+					            </div>
+					             
+					            </div>
+					          </div>
+					        </div>
+
+
+					          <div class="col s12 m6 animated slideInLeft" style="display:none">
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content white-text">
+					             
+					                <p>
+					                Have You had signs, persistent symptoms or any kind o f disease ?  
+					                </p>
+					            
+					            </div>
+
+					            <div class="card-action center ">
+
+					            <div class="row">
+
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">Yes</a>
+							            </div>
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">No</a>
+							            </div>
+					            
+					            </div>
+					             
+					            </div>
+					          </div>
+					        </div>
+
+					         <div class="col s12 m6 animated slideInLeft" style="display:none">
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content white-text content_details">
+					             
+					                <p>
+					                	Ever had surgical procedures(except <a href="#">these</a>),investigation/diagnostic tests/biopsies ?					             	
+					                </p>
+					            
+					            </div>
+
+					            <div class="card-action center">
+
+					            <div class="row">
+
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">Yes</a>
+							            </div>
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">No</a>
+							            </div>
+					            
+					            </div>
+					             
+					            </div>
+					          </div>
+					        </div>
+
+					         <div class="col s12 m6 animated slideInLeft" style="display:none">
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content white-text content_details">
+					             
+					                <p>
+					                	Do you have :- <br>
+					                	1. congential defect.<br>
+					                	2. abnormality.<br>
+					                	3. physical deformity.<br>
+					                	4. or hadicaped ? <br>
+					                </p>
+					            
+					            </div>
+ 
+					            <div class="card-action center">
+
+					            <div class="row">
+
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">Yes</a>
+							            </div>
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">No</a>
+							            </div>
+					            
+					            </div>
+					             
+					            </div>
+					          </div>
+					        </div>
+
+					          <div class="col s12 m6 animated slideInLeft" style="display:none">
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content white-text content_details">
+					             
+					                <p>
+					                	Have you ever had or received medical advice for any of the following illneses (<a href="#">click</a>)? 
+					                </p>
+					            
+					            </div>
+ 
+					            <div class="card-action center">
+
+					            <div class="row">
+
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">Yes</a>
+							            </div>
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">No</a>
+							            </div>
+					            
+					            </div>
+					             
+					            </div>
+					          </div>
+					        </div>
+
+					         <div class="col s12 m6 animated slideInLeft" style="display:none">
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content white-text content_details">
+					             
+					                <p>
+					                	Has your Insurance Application , Reinstatement Application on :<br>
+					                	1.Life <br>
+					                	2.Health <br>
+					                	3.Accident <br>
+					                	4.Critical Illness/Diability <br>
+					                	Ever declined or postponed or accepted at extra premiums ? <br> 
+					                </p>
+					            
+					            </div>
+ 
+					            <div class="card-action center">
+
+					            <div class="row">
+
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">Yes</a>
+							            </div>
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="abc()">No</a>
+							            </div>
+					            
+					            </div>
+					             
+					            </div>
+					          </div>
+					        </div>
+
+
+					         <div class="col s12 m6 animated slideInLeft" style="display:none">
+					          <div class="card blue-grey darken-1">
+					            <div class="card-content white-text">
+					             
+					                <p>
+					                	Have you made any claim from any of your policies ? 
+					                </p>
+					            
+					            </div>
+ 
+					            <div class="card-action center content_details">
+
+					            <div class="row">
+
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="get_summary()">Yes</a>
+							            </div>
+							            <div class="col s6">
+
+							            <a class="waves-effect waves-light btn rajoo" onclick="get_summary()">No</a>
+							            </div>
+					            
+					            </div>
+					             
+					            </div>
+					          </div>
+					        </div>
+					     
+		            
+
+				    
+				 </div>
+
+ 	</div>
+
+</div>		
+
+	
+
+
+<!-- // after selection of the hdfc life
+ -->
+	<div id="after_easy_life_selected">
+
+				  <nav class="nav-extended top_bar_screen_2">
+
+	    			<div class="nav-wrapper">
+
+					   <ul id="nav-mobile" class="left">
+
+					    <li> <a onclick="get_back_main_screen_2()" class="waves-effect waves-light" onclick="get_back_to_main_screen()"><i class="material-icons">arrow_back</i></a></li>
+
+					   </ul>
+
+					      <a href="#" class="brand-logo mid" style="color:#d4e5f1; font-size:5vw;">HDFCLife Easy Health Plan</a>
+
+
+					      <ul id="nav-mobile" class="right">
+					        <li><a class="waves-effect waves-light" ><i class="material-icons">notifications</i></a></li>
+					        <li><a class="waves-effect waves-light" ><i class="material-icons">supervisor_account</i></a></li>
+					      </ul>
+
+					      <ul class="tabs tabs-transparent">
+					        <li class="tab center-text"><a  class="active" href="#test1_life" onclick="show_policy()">Benefits</a></li>
+					        <li class="tab"><a  href="#test2_life">Buy New
+					        <li class="tab"><a href="#test3_life">My App.</a></li>
+					      </ul>
+				    </div>
+				  </nav>
+
+				<div id="test1_life" class="col s12 majorColor">
+
+					<div class="row">
+
+						
+						  <ul class="collapsible popout" data-collapsible="accordion">
+
+						  	<br>
+
+						    <li>
+						      <div class="collapsible-header active"><i class="material-icons icon_menu_color right ">keyboard_arrow_down</i>Plan Benefits</div>
+						      <div class="collapsible-body">
+
+						      	<div class="col s12">
+							    <img src="PlanBenefit.jpg" style="height:60%;width:100%"> 
+						        </div>						        
+
+						      </div>
+						    </li> <br>
+
+						    <li>
+						      <div class="collapsible-header"><i class="material-icons icon_menu_color right  ">keyboard_arrow_down</i>Flexibility</div>
+						      <div class="collapsible-body">
+						      	    <img src="flexibility.jpg" style="height:60%;width:100%">
+						      </div>
+						    </li> <br>
+
+						    <li>
+     					      <div class="collapsible-header"><i class="material-icons icon_menu_color right ">keyboard_arrow_down</i>Easy Claims & Services</div>
+						      <div class="collapsible-body">
+						      	 <img src="claim1.jpg" style="height:60%;width:100%">
+						      </div>
+						    </li> <br>
+
+						      <li>
+     					      <div class="collapsible-header"><i class="material-icons icon_menu_color right ">keyboard_arrow_down</i>Valur for Money</div>
+						      <div class="collapsible-body">
+						      	 <img src="ValueForMoney.jpg" style="height:60%;width:100%">
+						      </div>
+						    </li>
+
+
+
+
+						  </ul>
+
+
+					<!-- 	<div class="col s12">
+							  <img src="PlanBenefit.jpg" style="height:80%;width:100%">
+						</div>
+ -->
+
+
+   					</div> 
+
+				
+
+				</div>
+
+				<div id="test2_life" class="col s12">
+				
+					<div class="row majorColor">
+
+					
+
+						<div class="col s12 center" style="font-size:5vw">
+							<br> <br>
+							Choose From Three Benefit Plan Options
+							<br><br> 
+
+						</div>
+						
+						<div class="col s12">
+
+					        
+					        <ul class="collapsible popout" data-collapsible="accordion">
+
+							    <li>
+							      <div class="collapsible-header">
+														<ul class="collection">
+															<li class="collection-item avatar">
+														      <img src="cash.png" alt="" class="circle">
+														      <span class="title"></span> 
+														      <p style="font-size:4vw"> Daily Hospital Cash Benefit<br>      
+														        <p><i class="material-icons" style="color:black">keyboard_arrow_down</i></p>
+														     </p>
+														       <a href="#!" class="secondary-content">
+															      	<input type="checkbox" class="filled-in" id="filled-in-box1"/>
+								     								 <label for="filled-in-box1"></label></a>
+														  </li> 
+													</ul>
+							      
+							      </div>
+							      
+							      <div class="collapsible-body">
+
+								      	    <ul class="collection">
+											<li class="collection-item">1% of Sum Insured/Day In Non-ICU</li>
+											<li class="collection-item">2% of Sum Insured/Day In ICU</li>
+											</ul>
+
+
+							      	    <a class="waves-effect waves-light btn" href="#modal1">View Details</a>
+
+										  <div id="modal1" class="modal">
+										    <div class="modal-content">
+										     	
+
+										    </div>
+										  </div>
+ 
+							      </div>
+							   
+							    </li> <br>
+										
+			
+
+								<li>
+								      <div class="collapsible-header">
+												<ul class="collection">
+								     							 <li class="collection-item avatar">
+															      <img src="doctor.png" alt="" class="circle">
+															      <span class="title"></span>
+															      <p style="font-size:4vw">Surgery Benefit<br>
+															      
+															      	<p><i class="material-icons" style="color:black">keyboard_arrow_down</i></p>
+															      
+															      </p>
+
+															      <a href="#!" class="secondary-content">
+															      	<input type="checkbox" class="filled-in" id="filled-in-box2"/>
+								     								 <label for="filled-in-box2"></label></a>
+															  </li>
+														</ul>						
+								      
+								      </div>
+								      
+								      <div class="collapsible-body">
+
+								      	    <ul class="collection">
+											<li class="collection-item">Get 100% benefits in case of specified surgeries</li>
+											<li class="collection-item">Diffrent Categories of sum insured</li>
+											</ul>
+
+
+							      	    <a class="waves-effect waves-light btn" href="#modal2">Surgery List</a>
+
+										  <div id="modal2" class="modal">
+										    <div class="modal-content">
+										     		
+
+										    </div>
+										  </div>
+
+								      </div>
+								    </li> <br>
+
+
+									<li>
+									      <div class="collapsible-header">
+
+									      	<ul class="collection">
+													  <li class="collection-item avatar">
+																      <img src="patient1.png" alt="" class="circle">
+																      <span class="title"></span> 
+																      <p style="font-size:4vw" >Critical Illness Benefit<br>									         
+																      <p><i class="material-icons" style="color:black">keyboard_arrow_down</i></p>
+																      </p>
+																      <a href="#!" class="secondary-content"><input type="checkbox" class="filled-in" id="filled-in-box3"  />
+									    							  <label for="filled-in-box3"></label></a>
+													 </li>					
+									        </ul>
+
+									      </div>
+									      
+									    <div class="collapsible-body">
+
+									    	<ul class="collection">
+											<li class="collection-item"> 100% of Sum Insured payable on  Critical Illness</li>
+											<li class="collection-item">Applicable only once in a Policy Term </li>
+											</ul>
+
+
+							      	    <a class="waves-effect waves-light btn" href="#modal3">Illness List</a>
+
+										  <div id="modal3" class="modal">
+										    <div class="modal-content">
+										     		
+
+										    </div>
+										  </div>
+
+
+
+									    </div>
+									  </li>
+
+							</ul>
+
+						</div>
+
+						<div class="col s12 center" style="font-size:4vw"> <br>
+
+						  Note -Policy term 5 Years Only
+
+						</div>
+
+						<div class="col s12 center" style="font-size:4vw"> <br>
+						<a class="waves-effect waves-light btn" onclick="get_chat_box()"><i class="material-icons right">trending_flat</i>Next</a>
+
+						</div>
+
+					</div>
+
+				</div>
+				
+				<div id="test3_life" class="col s12">
+
+					<div class="row">				
+
+
+						  <div class="col s12">
+
+						  	<br> <br>
+
+						  	<div class="card">
+									<ul class="collection">
+
+
+										 <!--  <img src="easy2.png" alt="" class="circle">
+										 <img src="prot.png" alt="" class="circle">
+										  <img src="retiri1.png" alt="" class="circle">
+										 <img src="care.png" alt="" class="circle">
+
+										  <img src="invest1.png" alt="" class="circle">
+ -->
+										    <li class="collection-item avatar">
+										      <img src="easy2.png" alt="" class="circle">
+										      <span class="title">HDFCLife
+										         Easy Health Plan</span>
+										      <p><br>
+										      	Last Modified : 2017-01-27 18:18:53
+										      </p>
+										      <a href="#!" class="secondary-content"><i class="material-icons icon_menu_color">mode_edit</i></a>
+										    </li> <br>
+
+										    <li class="collection-item avatar">
+										    <img src="retiri1.png" alt="" class="circle">
+										      <span class="title">HDFC Life  
+										         Click2Retire</span>
+										      <p>
+										      	 <br> 	Last Modified : 2016-01-25 10:18:53
+										      </p>
+										      <a href="#!" class="secondary-content"><i class="material-icons icon_menu_color">mode_edit</i></a>
+										    </li> <br>
+
+										    <li class="collection-item avatar">
+										     <img src="invest1.png" alt="" class="circle">
+										      <span class="title">HDFC Life 
+										         Click2Invest</span>
+										      <p> <br>
+										      			Last Modified : 2017-01-24 15:18:53
+										      </p> 
+										      <a href="#!" class="secondary-content"><i class="material-icons icon_menu_color">mode_edit</i></a>
+										    </li>
+							   
+
+								    </ul>
+						   </div>
+				       </div>
+
+					</div>
+
+				</div>
+
+
+	</div>
+
+ <!-- sir chat box
+ -->
+
+<div class="screens" id="thirdScreen">
+
+      <div id="bot">
+        <img src="assests/other/bot.png" height="100%" width="auto">
+      </div>        
+      
+      <div id="chatArea">
+            <div class="talk-bubble tri-right round btm-left animated fadeIn" id="xyz">
+          <div class="talktext" align="center"><b>
+            <p id="greetings" align="center">Hi!<br>Swastik Shrivastava</p></b>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+            <nav class="nav coloring_bar">
+
+		            <div class="nav-wrapper">
+
+			          <!--     <a href="#" onclick="get_back_to_after_easy_life_selected()" ><i class="material-icons">arrow_back</i></a> -->
+
+<!-- 			              <a  href="#" data-activates="slide-out" class="button-collapse">Your Details Please</a>
+ -->
+			               <ul id="nav-mobile" class="left">
+			              
+			              	 <li>  <a href="#" onclick="get_back_to_after_easy_life_selected()" ><i class="material-icons">arrow_back</i></a></li>			                
+
+			                <li><a  href="#" data-activates="slide-out" class="button-collapse" style="font-size:4vw">Your Details Please</a>
+                            </li>       
+
+			              </ul>
+			             
+			              <ul id="nav-mobile" class="right">
+			              
+			              	 <li><a class="waves-effect waves-light" ><i class="material-icons">search</i></a></li>
+
+			                <li><a class="waves-effect waves-light" ><i class="material-icons">notifications</i></a></li>
+			              
+			                <li><a class="waves-effect waves-light" ><i class="material-icons">view_list</i></a></li>       
+
+			              </ul>
+
+		            </div>
+          </nav>
+
+    </div>
+
+    <div id="chatBox">
+          <div class="talk-bubble tri-right round right-in" style="position: absolute;bottom:-10%;right:0%; animation-delay: 0.4s; margin-bottom: 0px; margin-top: 0px;">
+            <div class="talktext whatsapp" align="center"><b>                 
+            </div>
+          </div>
+
+      </div>
+
+ </div>
+
+
+	<div id="faqs_screen">
+
+
+					  <nav class="nav coloring_bar ">
+		    			<div class="nav-wrapper">
+
+						   <ul id="nav-mobile" class="left">
+
+						    <li> <a onclick="remove_faq()"class="waves-effect waves-light"><i class="material-icons ">arrow_back</i></a></li>
+
+						   </ul>
+
+						      <a href="#" class="brand-logo mid" style="color:#d4e5f1; font-size:5vw;">FAQ'S</a>
+
+
+						      <ul id="nav-mobile" class="right">
+						        <li><a class="waves-effect waves-light" ><i class="material-icons ">notifications</i></a></li>
+						        <li><a class="waves-effect waves-light" ><i class="material-icons ">perm_identity</i></a></li>
+						      </ul>
+
+
+						  
+					    </div>
+					  </nav>
+
+					
+
+    				
+    				<div  class="row">
+
+    					<div class="col s12">
+
+							<div class="input-field col s12">
+
+							           <i class="material-icons prefix icon_menu_color">search</i>
+							          <input id="icon_prefix" type="text" class="validate">
+							          <label for="icon_prefix">First Name</label>
+
+							</div>
+
+    					</div>
+	    				
+	    				 <div class="col s12">
+					      <ul class="tabs">
+					        <li class="tab col s3"><a class="active" href="#test1_faq">HDFC Life ?</a></li>
+					        <li class="tab col s3"><a href="#test2_faq">About Plans</a></li>
+					        <li class="tab col s3"><a href="#test3_faq">General</a></li>
+					      </ul>
+					    </div>
+
+					    <div id="test1_faq" class="col s12">
+
+						   	<div class="row">
+
+								<div class="row">
+
+										<div class="col s12 center" style="font-size:5vw;">
+											<br>
+											Top Questions 
+											<br> <br>
+										</div>
+
+										<div class="col s12">
+
+											<ul class="collapsible popout" data-collapsible="accordion">
+											    <li>
+											      <div class="collapsible-header">Introduction<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+											    <li>
+											      <div class="collapsible-header">Strong Partner<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+											    <li>
+											      <div class="collapsible-header">Preffered and Trusted Brand<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+										    </ul>
+										</div>
+
+								</div>
+
+								<div class="row">
+
+			
+											<div class="col s12">
+
+												<ul class="collapsible popout" data-collapsible="accordion">
+												    <li>
+												      <div class="collapsible-header">Introduction<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+												    <li>
+												      <div class="collapsible-header">Strong Partner<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+												    <li>
+												      <div class="collapsible-header">Preffered and Trusted Brand<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+											    </ul>
+											</div>
+
+								</div>
+
+							</div>	
+
+				    	</div>
+					    
+					    <div id="test2_faq" class="col s12">
+
+ 							<div class="row">
+
+								<div class="row">
+
+										<div class="col s12 center" style="font-size:5vw;">
+											<br>
+											Top Questions 
+											<br> <br>
+										</div>
+
+										<div class="col s12">
+
+											<ul class="collapsible popout" data-collapsible="accordion">
+											    <li>
+											      <div class="collapsible-header">Introduction<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+											    <li>
+											      <div class="collapsible-header">Strong Partner<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+											    <li>
+											      <div class="collapsible-header">Preffered and Trusted Brand<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+										    </ul>
+										</div>
+
+								</div>
+
+								<div class="row">
+
+			
+											<div class="col s12">
+
+												<ul class="collapsible popout" data-collapsible="accordion">
+												    <li>
+												      <div class="collapsible-header">Introduction<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+												    <li>
+												      <div class="collapsible-header">Strong Partner<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+												    <li>
+												      <div class="collapsible-header">Preffered and Trusted Brand<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+											    </ul>
+											</div>
+
+								</div>
+
+							</div>	
+
+					    </div>
+					    
+					    <div id="test3_faq" class="col s12">
+								<div class="row">
+
+										<div class="col s12 center" style="font-size:5vw;">
+											<br>
+											Top Questions 
+											<br> <br>
+										</div>
+
+										<div class="col s12">
+
+											<ul class="collapsible popout" data-collapsible="accordion">
+											    <li>
+											      <div class="collapsible-header">Introduction<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+											    <li>
+											      <div class="collapsible-header">Strong Partner<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+											    <li>
+											      <div class="collapsible-header">Preffered and Trusted Brand<i class="material-icons right">arrow_downward</i></div>
+											      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+											    </li>
+										    </ul>
+										</div>
+
+								</div>
+
+								<div class="row">
+
+			
+											<div class="col s12">
+
+												<ul class="collapsible popout" data-collapsible="accordion">
+												    <li>
+												      <div class="collapsible-header">Introduction<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+												    <li>
+												      <div class="collapsible-header">Strong Partner<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+												    <li>
+												      <div class="collapsible-header">Preffered and Trusted Brand<i class="material-icons right">arrow_downward</i></div>
+												      <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+												    </li>
+											    </ul>
+											</div>
+
+								</div>
+
+							</div>	
+
+					</div>
+					
+		</div>
+
+	
+
+
+<!-- // summary man 
+ -->
+
+
+  <div id="summary_plan" style="background-color: #e5e5e5;">
+
+
+           <nav class="nav coloring_bar " >
+
+              <div class="nav-wrapper" >
+
+               <ul id="nav-mobile" class="left">
+
+                <li> <a class="waves-effect waves-light" onclick="go_to_home_screen()"><i class="material-icons">arrow_back</i></a></li>
+
+               </ul>
+
+                  <a href="#" class="brand-logo mid" style="color:#d4e5f1; font-size:5vw;">Policy Premium</a>
+
+
+                  <ul id="nav-mobile" class="right">
+                    <li><a class="waves-effect waves-light" ><i class="material-icons">notifications</i></a></li>
+
+                    <li><a class="waves-effect waves-light" ><i class="material-icons">supervisor_account</i></a></li>
+                  </ul>
+              
+              </div>
+
+          </nav> 
+
+          <div class="row" style="color:#0c5170">
+
+                <div class="col s12" > <br>
+
+                  <a class="waves-effect waves-light btn right"><i class="material-icons left">edit</i>Modify Plan</a>
+
+                </div>
+               
+                  <div class="col s12" style="font-size:5vw;" >
+                    <br>
+                     HDFC Life Easy Health Plan
+                    <br><br>
+                  </div>
+
+                
+                <div class="input-field col s12">
+                	  <i class="material-icons prefix icon_menu_color ">account_circle</i>
+			          <input id="last_name" type="text" class="validate" value="25000">
+			          <label for="last_name">Sum Assured</label>
+			    </div>
+
+                  
+                       <div class="input-field col s12">
+                        <i class="material-icons prefix icon_menu_color">attach_money</i>
+                        <input id="last_name" type="text" class="validate" value="5">
+                        <label for="last_name">Policy Term</label>
+                      </div>    
+
+
+                
+
+
+                    <div class="col s12">
+                      <br>
+                      Benefits
+                    </div>
+
+
+
+                    <div class="col s12">
+
+
+                         <ul class="collapsible popout" data-collapsible="accordion">
+
+                            <li>
+                                <div class="collapsible-header">
+                                 <ul class="collection">
+
+                                <li class="collection-item avatar">
+                                          <img src="cash.png" alt="" class="circle">
+                                          <span class="title"></span> 
+                                          <p style="font-family:regular;font-size:4vw;">Daily Hospital Cash Benefit
+
+                                            </p>                      
+
+                                </li>
+
+                              </ul>
+                                </div>
+                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>                          
+                          </li>
+
+                           <li>
+                                <div class="collapsible-header">
+                                   <ul class="collection">
+
+                                  <li class="collection-item avatar">
+                                            <img src="doctor.png" alt="" class="circle">
+                                            <span class="title"></span> 
+                                            <p style="font-family:regular;font-size:4vw;">Surgical Benefit
+
+                                              </p>                      
+
+                                  </li>
+
+                                  </ul>
+                                </div>
+                                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>                          
+                          </li>
+
+                           <li>
+                                <div class="collapsible-header">
+                                 <ul class="collection">
+
+                                <li class="collection-item avatar">
+                                          <img src="patient1.png" alt="" class="circle">
+                                          <span class="title"></span> 
+                                          <p style="font-family:regular;font-size:4vw;">Critical Illness Benefit
+
+                                            </p>                      
+
+                                </li>
+
+                              </ul>
+                                </div>
+                            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>                          
+                          </li>
+                       </ul>
+
+
+                    </div>
+                   
+
+                  
+
+
+                          <div class="col s12" style="font-size:4vw;">
+                          Payment Mode
+                          <br>
+                        </div>
+                        
+                        <div class="col s4">
+                          <p>
+                            <input class="with-gap" name="group1" type="radio" id="annual" />
+                            <label for="annual">Annualy</label>
+                          </p>
+                        </div>
+
+                       <div class="col s4">
+                          <p>
+                            <input class="with-gap" name="group1" type="radio" id="single" />
+                            <label for="single">Singly</label>
+                          </p>
+                       </div>          
+
+               
+                   
+                     <div class="input-field col s12">
+                        <i class="material-icons prefix icon_menu_color ">attach_money</i>
+                        <input id="last_name" type="text" class="validate" value="4523">
+                        <label for="last_name">Premium Amount</label>
+                    </div>      
+
+                    <div class="col s12 center">
+                        <br>
+                        <a class="waves-effect waves-light btn center">Buy Now</a>
+                        <br> <br>
+                   </div>               
+
+             </div>            
+
+      
+
+      </div>
+
+       <div id="dictionary">
+
+       
+        <nav class="nav top_bar_screen_2">
+
+
+                  <div class="nav-wrapper">
+
+
+                    <ul id="nav-mobile" class="left">
+                    
+
+                      <li>
+
+                      <a  onclick="remove_dictionary()"href="#"><i class="material-icons">arrow_back</i></a>
+
+                      </li>
+                    
+                      <li>
+
+                        <a  href="#" class="center" style="font-size:4vw">Find your Word</a>
+
+                      </li>
+                    
+
+                    </ul>                  
+
+
+                    <ul id="nav-mobile" class="right">                    
+
+                      <li><a  class="waves-effect waves-light" ><i class="material-icons">notifications</i></a></li>
+                    
+                      <li><a  href="#"   ><i class="material-icons">supervisor_account</i></a></li>                    
+
+                    </ul>
+
+
+                  </div>
+          </nav>
+ 
+
+          <br> <br>
+
+       <!--  <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix"  type="text" class="validate">
+          <label for="icon_prefix">First Name</label>
+        </div> -->
+
+         <div class="row">
+          <div class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix" style="color:black">search</i>
+                <input type="text" id="autocomplete-input" class="autocomplete">
+                <label for="autocomplete-input">Enter your word</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+          <div class="col s12 center">
+            <br> <br>
+            <a class="waves-effect waves-light btn" onclick="get_meaning()"><i class="material-icons left"></i>Find</a>
+          </div>
+        
+          <br>
+              <div class="input-field col s12 ">
+                <textarea id="textarea1" class="materialize-textarea center " style="font-size:4vw"=></textarea>
+              </div>
+          
+
+
+    </div>
+
+
+
+
+
+	
+
+
+</div>
+
+<script>
+
+		$(document).ready(function(){
+		    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+			    $('.modal').modal();
+	    });
+								
+
+
+var word=['Lump Sum Amount','Policy Term'];
+
+var meaning_array=['A lump sum is a single payment of money, as opposed to a series of payments made over time','Amount of time for which you are under cover'];
+
+
+
+ $(document).ready(function(){
+    $('input.autocomplete').autocomplete({
+      data: {
+
+              "Lump Sum Amount": null,
+              "Policy Term": null,
+            }
+
+         });
+
+    });
+
+ function get_meaning()
+{
+
+	  var user_word=document.getElementById('autocomplete-input').value;
+
+	  var flag=0;
+
+	  for(var i=0;i<word.length;i++)
+	  {
+	    if(user_word==word[i])
+	    {
+	        flag=1;
+
+	        document.getElementById('textarea1').innerHTML=meaning_array[i];
+
+	        break;
+	    }
+	  }
+
+	  if(flag!=1)
+	  {
+	       document.getElementById('textarea1').innerHTML="Nothing found";
+	  } 
+
+}
+
+
+		 $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+
+
+
+$(document).ready(function() {
+    $('select').material_select();
+  });
+
+
+  $(".button-collapse").sideNav();
+
+  $('.button-collapse').sideNav({
+      menuWidth: 280, // Default is 240
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
+
+
+  $(".button-collapse1").sideNav();
+
+   $('.button-collapse1').sideNav({
+      menuWidth: 240, // Default is 300
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
+       
+
+ 
+$(".marji").click(function(){
+    Highcharts.chart('container', {
+        chart: {
+            type: 'column',
+            height:400,
+            width:400
+        },
+        title: {
+            text: 'Unit Price for HDFC Sl Young Start Super II'
+        },
+        subtitle: {
+            text: 'As of 27/1/2017'
+        },
+        xAxis: {
+            categories: [
+
+                'Blue Chip Fund',
+                'Income Fund',
+
+                'Balance Fund',
+                'Short Term Fund',
+               
+                'Highest NAV Guarantee Fund',
+                'Short Term Fund',
+                'Capital Guranteed Fund',
+                'Pension Guarantee Fund'             
+             ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Amount Of NAV'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:4vw">{point.key}</span><table>',
+            pointFormat: '<tr>' +
+                '<td style="padding:0 font-size:2vw"><b>{point.y:.1f} nav</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: 'NAV ',
+            data: [17.48, 18.4565,23.3934,17.1768,16.2349,13.9435,15.1554, 15.9528]
+
+        }
+        ]
+    });
+});
+
+openFB.init({appId: '576082202561371'});
+     function login() {
+        openFB.login(
+                function(response) {
+
+                    if(response.status === 'connected') {
+                        getInfo();
+                    } else {
+                        alert('Facebook login failed: ' + response.error);
+                    }
+                }, {scope: 'email,user_friends,public_profile'});
+    }
+
+    function getInfo() {
+        openFB.api({
+            path: '/me?fields=name,email,id,gender,birthday',
+            success: function(data) {          
+
+
+                document.getElementById("facebook_pic").src = 'http://graph.facebook.com/' + data.id + '/picture?type=small';
+
+                 document.getElementById("facebook_name").innerHTML=data.name;
+
+                 document.getElementById("facebook_email").innerHTML=data.email;
+
+                 console.log(data.name);       
+
+             	document.getElementById("main_screen_2").style.display="block";
+                document.getElementById("login_slides").style.display="none";
+              	      
+            },
+            error: errorHandler});
+
+          function errorHandler(error) {
+            alert(error.message);
+          }
+    }
+
+   
+
+var inc_ques=1;
+
+$(".rajoo").click(function(){
+
+	$($(this).parent().parent().parent().parent().parent().siblings('.col')[1]).css("display","block");
+	$(this).parent().parent().parent().parent().parent().remove();	
+})
+
+var counter=0;
+
+setTimeout(function(){
+
+$('.whatsapp').html(design[0]+button_code);
+
+},4000);
+
+  var dataToSend=[];
+  
+  setTimeout(function(){
+      $("#greetings").html("We require some of your information !");  
+    },3500);
+
+setTimeout(function(){
+  $("#greetings").html('So Lets Get Started !<br>  <a class="btn-floating btn waves-effect waves-light amber accent-4" onclick="getUserData()"><i class="material-icons"  style="color:black;">send</i></a>');  
+},7000);
+
+
+function getUserData(){
+      $("#greetings").html("For whom you are buying policy?");
+      document.getElementById('chatBox').style.display="block";
+     }
+     
+     var button_code='<p align="center"> <a class="btn-floating btn waves-effect waves-light red" onclick="printData()"><i class="material-icons">send</i></a> </p>';
+   
+     var design=
+     [    
+        '<div class="row"> <div class="col s5" > <p> <input class="with-gap" name="group1" type="radio" id="self_annual" value="self" /> <label for="self_annual">Self</label> </p> </div> <div class="col s7"> <p> <input class="with-gap" name="group1" type="radio" id="loved_once" value="loved_once"/> <label for="loved_once">LovedOnce</label> </p> </div> </div>',
+
+      
+        '<div class="row"> <div class="col s6" > <p> <input class="with-gap" name="group3" type="radio" id="nri_yes" value="yes" /> <label for="nri_yes">Yes</label> </p> </div> <div class="col s6"> <p> <input class="with-gap" name="group3" type="radio" id="nri_no" value="no"/> <label for="nri_no">No</label> </p> </div> </div>',
+
+        '<div class="input-field col s12"> <i class="material-icons prefix">perm_contact_calendar</i> <input type="date" class="datepicker" value="" id="data_input_date"></div>',
+
+        '<div class="row"> <div class="col s6" > <p> <input class="with-gap" name="group4" type="radio" id="gender_yes" value="male" /> <label for="gender_yes">Male</label> </p> </div> <div class="col s6"> <p> <input class="with-gap" name="group4" type="radio" id="gender_no" value="female" /> <label for="gender_no">Female</label> </p> </div> </div>',
+
+        '<div class="row"> <div class="input-field col s12"> <i class="material-icons prefix" style="color:teal">phone</i> <input id="data_icon_telephone" type="tel" class="validate" value=""> <label for="data_icon_telephone">Mobile Number</label> </div> </div>',
+
+        '<div class="row"> <div class="input-field col s12"> <i class="material-icons prefix" style="color:teal" >email</i> <input id="data_icon_zip_code" type="tel" class="validate" value=""> <label for="data_icon_zip_code">Zip-Code</label> </div> </div>',
+
+      
+           ];
+
+
+     var questions = [
+      "Are you an NRI?",
+      "Your Date of Birth ?<br><br>",
+      "May I know your Gender?",
+      "Your Mobile Number please",
+      "Enter your Zip-Code?",
+     ];
+     
+     var i=1;
+     function printData(){
+
+      
+
+      $("#xyz").remove();
+      var input = $("#chatText").val();
+
+      if(i==1)
+      {
+
+        var now=$('input[name=group1]:radio:checked').val();
+  
+        if(now=="loved_once")
+        input="Loved Once";
+        else
+        {
+          input="Self";
+        }
+     
+      }
+      else
+      if(i==2)
+      {
+        
+         var now=$('input[name=group3]:radio:checked').val();
+  
+        if(now=="yes")
+        input="Yes";
+        else
+        {
+          input="No";
+        }
+     
+
+      }    
+      else
+      if(i==3)
+      {
+
+        var now=$('#data_input_date').val();
+  
+          input=now;
+       
+      }
+      else
+      if(i==4)
+      {
+
+        var now=$('input[name=group4]:radio:checked').val();
+  
+        if(now=="male")
+        input="Male";
+        else
+        {
+          input="Female";
+        }
+     
+      }
+      else
+      if(i==5)
+      {
+
+          var now=$('#data_icon_telephone').val();
+          input=now;
+      }
+      else
+      if(i==6)
+      {
+          var now=$('#data_icon_zip_code').val();
+          input=now;
+      }
+
+    
+       dataToSend.push(input);
+      $("#chatArea").append('<div class="talk-bubble tri-right round right-in abc grey lighten-2" style="position: absolute; right:0%; margin-bottom: 0px; margin-top: 0px;"> <div class="talktext" align="center" style="font-size:4.5vw"><b> <p align="center">'+input+'<br><br></p> </div> </div>');
+      for(var j=1;j<=questions.length;j++)
+      {
+        if(i==j)
+        {
+            $("#chatArea").append('<div class="talk-bubble tri-right round btm-left abc" style="position: absolute; left:0%; margin-bottom: 0px; margin-top: 0px;"> <div class="talktext" align="center"><b> <p id="greetings" align="center">'+questions[j-1]+'</p></b> </div> </div>')
+            $("#chatText").val("");
+
+            $('.whatsapp').html(design[j]+button_code);
+
+            moveAbove();
+         
+        }
+      }
+
+      i++;
+
+      if(i==questions.length+2)
+      {
+
+      	get_summary();
+
+      }
+
+     }
+
+     function moveAbove(){
+      var numberOfChatBox = $("#chatArea").children().length;
+      for(var j=0;j<numberOfChatBox;j++)
+      {
+        var q=((numberOfChatBox-j-1)*23) + 6;
+        document.getElementsByClassName('abc')[j].style.bottom = q + '%';
+      }
+     }      
+
+
+
+</script>
+		
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(19.11,72.3),
+    zoom:10,
+};
+var map=new google.maps.Map(document.getElementById("map"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhoewOYPG2eyB1mkSc4UL7xHm3ntPCHZE&callback=myMap"></script>
+</body>
+
+</html>
